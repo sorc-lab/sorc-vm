@@ -9,4 +9,6 @@ Vagrant.configure(2) do |config|
 	end
 
 	config.vm.provision "shell", path: "provision.sh"
+
+	config.vm.synced_folder "share/", "/home/vagrant/share"
 end
