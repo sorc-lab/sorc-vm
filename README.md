@@ -10,3 +10,6 @@ export VAGRANT\_PREFER\_SYSTEM\_BIN=1
 TK4- OS will need to be downloaded and placed in ~/sorc-vm/mainframe/ manually.
 Grab the tk4-_v1.00_current.zip from http://wotho.ethz.ch/tk4-/
 // TODO: Add .zip file to personal cloud storage.
+
+NOTE: Need to SSH w/ parms. (need to re-install MINGW64 on SORC-T530:
+      $ VAGRANT_PREFER_SYSTEM_BIN=1 vagrant ssh
